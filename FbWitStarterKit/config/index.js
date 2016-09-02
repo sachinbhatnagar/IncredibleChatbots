@@ -1,7 +1,6 @@
 'use strict';
 if(process.env.NODE_ENV === 'production') {
 	module.exports = {
-		MONGO_URI: process.env.MONGOURI,
 		WIT_ACCESS_TOKEN: process.env.WIT_ACCESS_TOKEN,
 		FB: {
 			PAGE_ACCESS_TOKEN: process.env.PAGE_ACCESS_TOKEN,

@@ -1,3 +1,4 @@
+// Weather API codes for current weather conditions
 let present = [{
 	codes: [5,6,7,8,9,10],
 	prefix: "there is"
@@ -12,6 +13,7 @@ let present = [{
 	prefix: "it is"
 }];
 
+// Weather API codes for forecast conditions
 let future = [{
 	codes: [0,1,2],
 	prefix: "there will be a"
